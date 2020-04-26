@@ -14,7 +14,7 @@ spec:
         name: web
     spec:
       containers:
-      - image: <YOUR-CONTAINER>
+      - image: akshaygpt/my-sm
         name: web
         ports:
         - containerPort: 3000
